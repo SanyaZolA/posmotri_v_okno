@@ -9,6 +9,8 @@ html {
 }
 
 .page {
+  display: flex;
+  align-items: center;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -40,15 +42,18 @@ ol {
 .content {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
   gap: 30px;
   padding: 133px 30px;
+}
+
+.result {
+  align-self: flex-end;
 }
 
 .search-form {
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  gap: 40px;
 }
 
 .search-form__fieldset-title {
