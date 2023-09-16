@@ -79,18 +79,9 @@ ol {
 }
 
 .content__list {
-  display: flex;
+  position: relative;
   height: 298px;
   overflow-x: auto;
-  flex-direction: column;
-}
-
-.content__list-item {
-  margin-bottom: 30px;
-}
-
-.content__list-item:last-child {
-  margin-bottom: 0;
 }
 
 .content__list::-webkit-scrollbar {
@@ -123,6 +114,14 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.content__list-item {
+  margin-bottom: 30px;
+}
+
+.content__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .content__video-card {
