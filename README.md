@@ -1,5 +1,3 @@
-https://github.com/SanyaZolA/ono-tebe-nado
-
 # Проект второго модуля ["Посмотри в окно"].
 
 В проекте кликабельны **ссылки**, реализован **visually-hidden**.
