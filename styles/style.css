@@ -66,7 +66,7 @@ ol {
 
 .title {
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -91,13 +91,15 @@ ol {
 .content__card-link {
   color: #fff;
   text-decoration: none;
+  width: 394px;
+  display: inline-block;
 }
 
 .content__details {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 28px;
+  gap: 26px;
   width: auto;
   height: auto;
 }
@@ -105,15 +107,17 @@ ol {
 .result__video-container {
   position: relative;
   display: flex;
-  min-width: 711px;
-  min-height: 386px;
+  width: 711px;
+  height: 386px;
   margin-bottom: 16px;
+  object-fit: contain;
 }
 
 .result__video {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
 }
 
 .content__list-item {
@@ -126,13 +130,23 @@ ol {
 
 .content__video-card {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+.content__video-card-description-container {
+  width: 100%;
+  height: 100%;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content__video-card-title {
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -142,22 +156,18 @@ ol {
 }
 
 .content__video-card-description {
+  padding: 2px;
   color: #fff;
-  font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 16.2px;
-}
+} 
 
 .content__video-card-thumbnail {
-  width: 194px;
+  width: 192px;
   height: 103px;
-  object-fit: contain;
-}
-
-.content__video-card-description-container {
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
 }
 
 .visually-hidden {
@@ -203,9 +213,9 @@ fieldset {
   margin: 1px 0 0 0.5px;
 }
 
-.search-form__label-text:hover {
+.search-form__checkbox-list :hover {
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration-line: underline;
 }
 
 .search-form__textfield {
@@ -220,8 +230,8 @@ fieldset {
   border-bottom: 1px solid #fff;
   background-color: transparent;
   appearance: none;
-  color: rgba(255, 255, 255, 0.70);
-  font-family: Fira Sans Condensed;
+  color: rgba(255, 255, 255);
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -229,7 +239,7 @@ fieldset {
 
 }
 
-.search-form__textfield:placeholder {
+.search-form__textfield::placeholder {
   color: rgba(255, 255, 255, 0.7);
   font-size: 18px;
   font-style: normal;
@@ -263,6 +273,7 @@ button {
   border: 1px solid #fff;
   color: #fff;
   text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -291,11 +302,6 @@ button {
 .more-button {
   width: 399px;
   margin-top: 30px;
-}
-
-.content__card-link {
-  width: 394px;
-  display: inline-block;
 }
 
 .content__card-link_current {
