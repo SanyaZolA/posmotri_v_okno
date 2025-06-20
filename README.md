@@ -1,4 +1,4 @@
-# Проект второго модуля ["Посмотри в окно"].
+# Проект второго модуля ["Посмотри в окно"](https://sanyazola.github.io/posmotri_v_okno/).
 
 https://github.com/SanyaZolA/posmotri_v_okno
 
