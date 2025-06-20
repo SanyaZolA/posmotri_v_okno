@@ -1,7 +1,5 @@
 # Проект второго модуля ["Посмотри в окно"](https://sanyazola.github.io/posmotri_v_okno/).
 
-https://github.com/SanyaZolA/posmotri_v_okno
-
 В проекте кликабельны **ссылки**, реализован **visually-hidden**.
 
 ## В реализации использовались такие технологии:
