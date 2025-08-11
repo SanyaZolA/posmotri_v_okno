@@ -8,17 +8,6 @@ html {
   block-size: 100%;
 }
 
-.page {
-  display: flex;
-  align-items: center;
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
 
 h1,
 h2,
@@ -37,6 +26,18 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  inline-size: 1200px;
+  block-size: 100%;
+  margin: auto;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  background-color: #1b1919;
 }
 
 .content {
@@ -80,7 +81,7 @@ ol {
 
 .content__list {
   position: relative;
-  height: 298px;
+  height: 305px;
   overflow-x: auto;
 }
 
@@ -121,7 +122,7 @@ ol {
 }
 
 .content__list-item {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .content__list-item:last-child {
@@ -268,7 +269,7 @@ button {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
-  background-color: transparent;
+  background-color: inherit;
   border: 1px solid #fff;
   color: #fff;
   text-align: center;
