@@ -1,6 +1,4 @@
-# Проект второго модуля ["Посмотри в окно"].
-
-https://github.com/SanyaZolA/posmotri_v_okno
+# Проект второго модуля ["Посмотри в окно"](https://sanyazola.github.io/posmotri_v_okno/).
 
 В проекте кликабельны **ссылки**, реализован **visually-hidden**.
 
